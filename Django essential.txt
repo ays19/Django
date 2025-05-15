@@ -6,6 +6,7 @@ install python
 write cmd in search write python --version
 pip install django
 django-admin --version
+
 django-admin startproject djangoapp
 python manage.py runserver
 
@@ -18,3 +19,9 @@ Include firstdjangoapp in the installed apps in settings.py
 views.py-->
 def hello(request):
 	return HttpResponse('Welcome to our first Django App')
+
+add path('', views.hello) to path('', views.hello) = [ ]
+
+
+Use CTRL+C to close the server.
+Study MVT Structure from https://www.geeks forgeeks.org/django-project-mvt-structure/
