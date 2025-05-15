@@ -1,0 +1,20 @@
+
+Django Essentials-Notepad
+
+CMD-->
+install python
+write cmd in search write python --version
+pip install django
+django-admin --version
+django-admin startproject djangoapp
+python manage.py runserver
+
+
+terminal-->
+python manage.py startapp firstdjangoapp
+
+Include firstdjangoapp in the installed apps in settings.py
+
+views.py-->
+def hello(request):
+	return HttpResponse('Welcome to our first Django App')
