@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'firstdjangoapp',  # My first Django app
 ]
 
 MIDDLEWARE = [
